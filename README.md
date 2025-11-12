@@ -1,2 +1,3 @@
 # projeto-php-2025-02
-Projeto direcionado ao aprendizado
+Grupo: Sidney André, Marcio Renan, Luiz Neto.
+Tema: 
