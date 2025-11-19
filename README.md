@@ -11,12 +11,17 @@ Funções de arquivos (Back-end)
     °A conexão com o banco de dados será feita pelo arquivo "config.inc.php" para com os demais arquivos
   
   #Página do admin ("admin.php")
+  
     °É onde será feito o cadastro, visualização e edição de clientes e usuários; estas funções serão atribuídas aos outros arquivos
     
   #formulário e cadastro ("form", "clientescadastro" e "usuarioscadastro")
+  
     °Terá como função principal o cadastro de novos clientes/empresas e usuários do site;
+    
     °O form enviará o conteúdo dos campos preenchidos para "clientescadastro.php"
+    
     °O "clientescadastro" e "usuarioscadastro" enviará os dados recebidos do form para o banco de dados "projetofinal"
+    
     °O "usuarioscadastro" terá os dados recebidos de um arquivo fora da pasta "admin"
 
   #Alteração e exclusão ("...Alterar" e "...Excluir")
