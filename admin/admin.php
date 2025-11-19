@@ -13,7 +13,7 @@
                 <a class="nav-link" href="?pg=noticias"> Noticias</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link"  href="?pg=clientesAdmin"> Clientes</a>
+                <a class="nav-link"  href="?pg=clienteslista"> Clientes</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="?pg=contato"> Dados de Contato</a>
@@ -33,3 +33,4 @@
         include_once "$pg.php";
     }
 ?>
+
