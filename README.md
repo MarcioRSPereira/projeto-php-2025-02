@@ -25,7 +25,9 @@ Funções de arquivos (Back-end)
     °O "usuarioscadastro" terá os dados recebidos de um arquivo fora da pasta "admin"
 
   #Alteração e exclusão ("...Alterar" e "...Excluir")
+  
     °Os arquivos "...Alterar" serão responsáveis por modificar os dados armazenados no banco de dados
+    
     °Os arquivos "...Excluir" serão responsáveis por excluir os dados armazenados no banco de dados
 
 
