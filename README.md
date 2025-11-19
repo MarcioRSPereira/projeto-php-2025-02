@@ -5,7 +5,9 @@ Tema: Site de contato de empresas.
 Funções de arquivos (Back-end)
 
   #Banco de dados (projetofinal)
+  
     °Terá os campos: id, nome(proprietário), loja, cnpj, endereço, numero(empresa/loja) e email(empresa/loja)
+    
     °A conexão com o banco de dados será feita pelo arquivo "config.inc.php" para com os demais arquivos
   
   #Página do admin ("admin.php")
