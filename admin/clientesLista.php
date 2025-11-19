@@ -18,7 +18,7 @@
             echo "Endereço: ".$dados['endereco']."<br>";
             echo "Numero da empresa: ".$dados['numero']."<br>";
             echo "Email da empresa: ".$dados['email']."<br>";
-            echo " <a href='?pg=formAlterar&id=$dados[id]'>Editar</a>";
+            echo " <a href='?pg=clienteFormAlterar&id=$dados[id]'>Editar</a>";
             echo "| <a href='?pg=clientes-excluir&id=$dados[id]'>Excluir</a>";
             echo "<hr>";
         }
@@ -27,3 +27,4 @@
     }
 
 ?>
+
