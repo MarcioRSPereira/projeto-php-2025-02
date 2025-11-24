@@ -1,6 +1,6 @@
 <?php
 
-   include("config.inc.php");
+   include("admin/config.inc.php");
    if(isset($_POST['email']) && strlen($_POST['email']>0)){
     if(isset($_SESSION))
         session_start();
@@ -44,4 +44,5 @@
         <input type="submit" value="entrar">
     
 </body>
+
 </html>
