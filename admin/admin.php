@@ -7,16 +7,8 @@
     <div class="container-fluid">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="?pg=paginas"> Gestão de Páginas</a>
+                <a class="nav-link" href="?pg=clientesLista"> listar clientes</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="?pg=noticias"> Noticias</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link"  href="?pg=clienteslista"> Clientes</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="?pg=contato"> Dados de Contato</a>
             </li>
         </ul>
     </div>
@@ -33,6 +25,7 @@
         include_once "$pg.php";
     }
 ?>
+
 
 
 
