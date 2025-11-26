@@ -26,12 +26,13 @@
 
     // área de conteúdo
     if(empty($_SERVER["QUERY_STRING"])){
-        $var = "clientes";
+        $var = "clientesLista";
         include_once "$var.php";
     }else{
         $pg = $_GET['pg'];
         include_once "$pg.php";
     }
 ?>
+
 
 
