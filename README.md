@@ -27,4 +27,8 @@ Funções de arquivos (Back-end)
 
 Funções de arquivos (Front-End)
 
-  #
+  #index.php
+    °será o arquivo que direcionará aos outros arquivos, agindo como menu principal
+
+  #empresasCadastradas.php
+   °será
