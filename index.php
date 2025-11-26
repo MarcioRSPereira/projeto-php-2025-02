@@ -27,6 +27,9 @@
       <li class="nav-item">
         <a class="nav-link" href="?pg=form">Cadastrar Empresa</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="admin/admin.php">Entrar como Administrador</a>
+      </li>
     </ul>
   </div>
 </nav>
@@ -37,8 +40,7 @@
 <?php
     // área de conteúdo
     if(empty($_SERVER["QUERY_STRING"])){
-        $var = "principal";
-        include_once "$var.php";
+        echo"nenhuma página selecionada!";
     }else{
         $pg = $_GET['pg'];
         include_once "$pg.php";
