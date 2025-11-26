@@ -24,3 +24,7 @@ Funções de arquivos (Back-end)
   
     °Os arquivos "...Alterar" serão responsáveis por modificar os dados armazenados no banco de dados
     °Os arquivos "...Excluir" serão responsáveis por excluir os dados armazenados no banco de dados
+
+Funções de arquivos (Front-End)
+
+  #
