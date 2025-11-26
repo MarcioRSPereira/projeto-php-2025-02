@@ -1,6 +1,6 @@
 <?php
     //1ª etapa - conectando com servidor
-    $conexao = mysqli_connect("localhost","root","");
+    $conexao = mysqli_connect("localhost","root","123");
     //2ª etapa - selecionando banco de dados
     $db = mysqli_select_db($conexao,"projetofinal");
 
