@@ -1,7 +1,7 @@
 <?php
     require_once "config.inc.php";
 
-    if($_SERVER['REQUEST_METHOD'] == 'POST') {
+   if($_SERVER['REQUEST_METHOD'] == 'POST') {
         $nomeCliente = $_POST["nome"];
         $loja = $_POST["loja"];
         $endereco = $_POST["endereco"];
@@ -24,4 +24,5 @@
         echo "<h2>Acesso negado.</h2>";
         echo "<a href='?pg=clienteslista'>Voltar</a>";
     }
+
 ?>
