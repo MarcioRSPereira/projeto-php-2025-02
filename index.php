@@ -11,7 +11,7 @@
 </header>
 
 <!-- conteúdo do site -->
-<body>
+<body class="text-center">
 <nav class="navbar navbar-expand-sm bg-light navbar-light">
   <div class="container-fluid">
     <ul class="navbar-nav">
@@ -40,7 +40,7 @@
 <?php
     // área de conteúdo
     if(empty($_SERVER["QUERY_STRING"])){
-        echo"nenhuma página selecionada!";
+        echo"Nenhuma página selecionada!";
     }else{
         $pg = $_GET['pg'];
         include_once "$pg.php";
