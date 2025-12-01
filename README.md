@@ -13,19 +13,32 @@ Funções de arquivos (Back-end)
   
     °É onde será feito o cadastro, visualização e edição de clientes e usuários; estas funções serão atribuídas aos outros arquivos
     
-  #formulário e cadastro ("form", "clientescadastro" e "usuarioscadastro")
+  #formulário e cadastro ("clientescadastro")
   
     °Terá como função principal o cadastro de novos clientes/empresas e usuários do site;
-    °O form enviará o conteúdo dos campos preenchidos para "clientescadastro.php"
-    °O "clientescadastro" e "usuarioscadastro" enviará os dados recebidos do form para o banco de dados "projetofinal"
-    °O "usuarioscadastro" terá os dados recebidos de um arquivo fora da pasta "admin"
+    °O form(front) enviará o conteúdo dos campos preenchidos para "clientescadastro.php"
+    °O "clientescadastro" enviará os dados recebidos do form para o banco de dados "projetofinal"
 
   #Alteração e exclusão ("...Alterar" e "...Excluir")
   
     °Os arquivos "...Alterar" serão responsáveis por modificar os dados armazenados no banco de dados
     °Os arquivos "...Excluir" serão responsáveis por excluir os dados armazenados no banco de dados
 
+Funções de arquivo(Front-End)
 
-    
+  #menu principal(index)
+  
+    °É o arquivo que conecta todos os outros do front-end
 
+  #formulário de cadastro de empresas(form)
+
+    °Será o responsável por receber os dados de um novo cliente e enviá-los ao "clentescadastro.php"
+
+  #visualização de empresas cadastradas(empresasCadastradas)
     
+    °Irá fornecer a visualização das empresas cadastradas
+
+  #outros(contato e quemSomos)
+
+    °contato irá mostrar as informações de contato sobre os criadores
+    °quemSomos irá mostrar as informações da empresa dos criadores
