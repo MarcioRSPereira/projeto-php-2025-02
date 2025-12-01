@@ -23,12 +23,12 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $executa = mysqli_query($conexao, $sql);
     if($executa) {
         echo "<h2>Alteração realizada com sucesso.</h2>";
-        echo "<a href='?pg=clienteslista'>Voltar</a>";
+        echo "<a href='?pg=clientesLista'>Voltar</a>";
     }else{
         echo "<h2>Erro ao alterar cadastro.</h2>";
-        echo "<a href='?pg=clienteslista'>Voltar</a>";
+        echo "<a href='?pg=clientesLista'>Voltar</a>";
     }
 }else{
     echo "<h2>Acesso negado.</h2>";
-    echo "<a href='?pg=clienteslista'>Voltar</a>";
+    echo "<a href='?pg=clientesLista'>Voltar</a>";
 }
