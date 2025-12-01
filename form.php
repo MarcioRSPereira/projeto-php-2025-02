@@ -6,7 +6,7 @@
 <body>
         <h1 class="text-center">Cadastro de Cliente</h1>
         <div class="d-flex align-items-center justify-content-center vh-100">
-            <form action="admin/clientescadastro.php" method="post">
+            <form action="?pg=clientescadastro" method="post">
                 
                 <!--cadastro do cliente/dono da empresa-->
                 <label class="form-check-label text-center">Nome do Proprietário:</label>
