@@ -30,7 +30,7 @@
             echo "Email da empresa: ".$dados['email']."<br>";
             
             
-            echo " <a href='?pg=clienteFormAlterar&id=$dados[id]'>Editar</a>";
+            echo " <a href='?pg=clientesFormAlterar&id=$dados[id]'>Editar</a>";
             
             
             echo "| <a href='?pg=clientes-excluir&id=$dados[id]'>Excluir</a>";
@@ -41,4 +41,5 @@
         echo "<h3>Nenhum cliente cadastrado!</h3>";
     }
 ?>
+
 
