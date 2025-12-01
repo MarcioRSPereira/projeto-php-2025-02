@@ -29,7 +29,7 @@
 </form>
 
 <?php
-         }else{
+    }else{
         echo "<h2>Nenhum cliente cadastrado!</h2>";
     }
 ?>

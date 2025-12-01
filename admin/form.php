@@ -1,5 +1,5 @@
 <h1>Cadastro de Cliente</h1>
-<form action="?pg=clientescadastro" method="post">
+<form action="clientescadastro.php" method="post">
     <!--cadastro do cliente/dono da empresa-->
 
     <label>Nome do proprietário:</label>

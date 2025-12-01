@@ -2,8 +2,6 @@
 
     require_once "config.inc.php";
 
-    echo "<a href='?pg=clientesForm'>Cadastrar novo cliente</a>";
-
     echo "<h1>Lista de clientes cadastrados</h1>";
 
     $sql = "SELECT * FROM clientes";
