@@ -1,14 +1,18 @@
 <?php
     echo "<h1>Painel Administrativo</h1>";
-
-    
 ?>
+
 <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
     <div class="container-fluid">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="?pg=clientesLista"> listar clientes</a>
+                <a class="nav-link" href="?pg=noticias">Noticias</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link"  href="?pg=clienteslista">Clientes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="?pg=contato">Dados de Contato</a>
             </li>
         </ul>
     </div>
@@ -25,8 +29,3 @@
         include_once "$pg.php";
     }
 ?>
-
-
-
-
-
